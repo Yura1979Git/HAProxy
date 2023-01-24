@@ -16,6 +16,9 @@
 *_LOCAL_*.txt
 *_REMOTE_*.txt
 
+#Certificates
+*.pem
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
