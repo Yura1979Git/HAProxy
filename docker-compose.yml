@@ -4,6 +4,8 @@ services:
     build: 
       dockerfile: Dockerfile
       context: .
+      tags:
+        - "tyi/python-flask"
     ports:
       - "9010-9013:5000"
     deploy:
@@ -49,7 +51,5 @@ volumes:
 
 networks:
   app_network:
-    name: app_network
   backend_network:
-    name: backend_network
     internal: true
